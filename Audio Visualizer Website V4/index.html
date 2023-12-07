@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Visualizer V4</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <canvas id="visualizer" width="600" height="200"></canvas>
+    </div>
+
+    <div><br></div>
+
+
+
+<!--
+<div id="audio-wrapper"></div>
+
+        <audio id="audio">
+            <source src="Animewow.mp3" type="audio/mp3">
+        </audio>
+
+    </div>
+
+    <div id="settings-wrapper">
+
+        <input type='file' id="fileupload" accept='audio/*'>
+-->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+    <div class="webplayer-controls">
+        <audio id="audio" controls>
+        <source src="" id="src" />
+        </audio>
+    </div>
+
+    <div><br></div>
+
+    <div class="select-file">
+        <input class="custom-file-input" type="file" style="color:white;" id="upload" accept='audio/*'/>
+        <!-- <input class="custom-file-input" type="file" id="upload" accept='audio/*'/> -->
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
